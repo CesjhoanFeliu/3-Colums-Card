@@ -123,6 +123,7 @@ button:hover {
     .container {
         display: flex;
         margin: 100px 10px;
+        justify-content: center;
     }
 
     /*Footer*/
