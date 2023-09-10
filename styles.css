@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75)
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 100;
+
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+section {
+    height: 450px;
+    width: 328px;
+
+}
+
+p {
+    color: var(--Transparent-white);
+    line-height: 28px;
+
+    margin-bottom: 30px;
+    word-spacing: 0px;
+
+
+}
+
+button {
+    border-style: none;
+    width: 148px;
+    height: 48px;
+    border-radius: 45px;
+
+
+}
+
+.card {
+    margin: 0 auto
+}
+
+.card1 {
+    background-color: var(--Bright-orange);
+    margin-top: 90px;
+    border-radius: 1em 1em 0em 0em;
+}
+
+.card2 {
+    background-color: var(--Dark-cyan);
+}
+
+.card3 {
+    background-color: var(--Very-dark-cyan);
+    margin-bottom: 90px;
+
+    border-radius: 0em 0em 1em 1em;
+}
+
+.tarjeta {
+    padding: 50px 50px 0px 50px;
+}
+
+.tarjeta img {
+    margin-bottom: 40px;
+}
+
+.card1 button {
+    color: var(--Bright-orange);
+}
+
+.card2 button {
+    color: var(--Dark-cyan);
+}
+
+.card3 button {
+    color: var(--Very-dark-cyan);
+}
+
+button:hover {
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+}
+
+/*Desktop*/
+
+@media only screen and (min-width: 1000px) {
+    section {
+        height: 550px;
+        width: 328px;
+
+    }
+
+    button {
+        margin-top: 80px;
+    }
+
+    .card1 {
+        border-radius: 1em 0em 0em 1em;
+    }
+
+    .card3 {
+        border-radius: 0em 1em 1em 0em;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        margin: 100px 10px;
+    }
+
+    /*Footer*/
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
